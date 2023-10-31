@@ -1,0 +1,65 @@
+
+/* Education Styling Starts */
+#main {
+  background-color: yellow;
+}
+
+html {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.heading {
+  margin: 0 !important;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+.subHeading {
+  margin: 0 !important;
+  margin-top: 8px !important;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  font-size: medium;
+  opacity: 0.9;
+}
+.description {
+  margin-bottom: 20px !important;
+  color: black;
+  font-size: small !important;
+  opacity: 0.6;
+}
+
+.score {
+  font-size: medium;
+  opacity: 0.9;
+}
+
+
+.vertical-timeline::before {
+  background: black; /* Replace with the desired color */
+}
+
+/* Education Styling Ends*/
+
+/* About */
+
+#about-txt {
+  font-family: Copperplate, Papyrus, fantasy; 
+  font-size: 23px; /* Increase or decrease the size as needed */
+  line-height: 1.4; /* Adjust line height for readability */
+}
+
